@@ -11,6 +11,5 @@
 
 >  Game Features 
 
-<img src="images/Capture.JPG" width="600px">
-
-<img src="images/Capture2.JPG" width="500px">
+<img src="images/test_record.gif" width="600px">
+ 

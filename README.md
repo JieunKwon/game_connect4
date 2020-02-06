@@ -7,3 +7,7 @@ HTML, CSS, Bootstrap 3, JavaScript, JQuery 3.4.1
 
 - The purpose of the game "CONNECT 4" is to connect four chips in a row for a player to win. 
 - Players will put their chips in one by one from the bottom of the game board. 
+
+- Game Feature
+
+<img src="images/capture.jpg" width="600px">

@@ -11,3 +11,5 @@ HTML, CSS, Bootstrap 3, JavaScript, JQuery 3.4.1
 - Game Feature
 
 <img src="images/Capture.JPG" width="600px">
+
+<img src="images/Capture2.JPG" width="600px">

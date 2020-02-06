@@ -94,19 +94,24 @@ function colorCheckRows(){
 
 // check chips as Diagonal
 function colorCheckDiagonal(){
-  for (var c = 0; c < 5; c++){
-    for(var r = 0; r < 7; r++){
+  for (var c = 0; c < 4; c++){
+    for(var r = 0; r < 3; r++){
       if(colorCheckFour(returnColor(r,c), returnColor(r+1,c+1), returnColor(r+2,c+2), returnColor(r+3,c+3))){
         fadeChipColor(r,c, winColor);
         fadeChipColor(r+1,c+1, winColor);
         fadeChipColor(r+2,c+2, winColor);
         fadeChipColor(r+3,c+3, winColor);
         return true;
-      }else if(colorCheckFour(returnColor(r,c), returnColor(r-1,c+1), returnColor(r-2,c+2), returnColor(r-3,c+3))){
+      }
+    }
+  }
+  for (var c = 3; c < 7; c++){
+    for(var r = 0; r < 3; r++){
+      if(colorCheckFour(returnColor(r,c), returnColor(r+1,c-1), returnColor(r+2,c-2), returnColor(r+3,c-3))){
         fadeChipColor(r,c, winColor);
-        fadeChipColor(r-1,c+1, winColor);
-        fadeChipColor(r-2,c+2, winColor);
-        fadeChipColor(r-3,c+3, winColor);
+        fadeChipColor(r+1,c-1, winColor);
+        fadeChipColor(r+2,c-2, winColor);
+        fadeChipColor(r+3,c-3, winColor);
         return true;
       }
     }
